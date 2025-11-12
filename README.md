@@ -1,7 +1,7 @@
 # NutriScan
 # 🩸 NutriScan — AI Blood Report Analyzer & Diet Planner
 
-**Live Demo:** [👉 Click here to open in Chrome](https://diet-analyzer-3.preview.emergentagent.com/)
+**Live Demo:** [👉 Click here to open NutriScan](https://vishalshete122.github.io/NutriScan/)
 
 NutriScan is an AI-powered app that analyzes **your blood report** and provides a **personalized diet plan** based on your health parameters.  
 It helps you understand your body better — showing nutrient levels, deficiencies, and smart meal suggestions to improve your health naturally.
