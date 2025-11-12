@@ -1,5 +1,5 @@
 # NutriScan
-# 🩸 NutriScan — AI Blood Report Analyzer & Diet Planner
+# NutriScan — AI Blood Report Analyzer & Diet Planner
 
 ***Live Demo:** [👉 Click here to open NutriScan](https://nutri-scan-chi.vercel.app/)
 
