@@ -1,14 +1,56 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=https://nutri-scan-chi.vercel.app/" />
-    <title>NutriScan — Redirecting…</title>
-  </head>
-  <body>
-    <h2>Redirecting to NutriScan…</h2>
-    <p>If you are not redirected automatically, 
-      <a href="https://nutri-scan-chi.vercel.app/">click here</a>.
-    </p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NutriScan — Status</title>
+  <style>
+    :root{
+      --bg:#f4f7fb;
+      --card:#ffffff;
+      --accent:#78c7ff; /* sky-blue as you wanted */
+      --text:#111827;
+      --muted:#555;
+      --btn-text:#fff;
+    }
+    body{margin:0;font-family:Inter, Roboto, Arial, sans-serif;background:var(--bg);color:var(--text);}
+    .wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px;}
+    .card{width:100%;max-width:760px;background:var(--card);border-radius:14px;box-shadow:0 8px 30px rgba(2,6,23,0.08);padding:28px;}
+    h1{margin:0 0 6px;font-size:28px;color:var(--text);}
+    p.lead{margin:0 0 18px;color:var(--muted);}
+    .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px;}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:600;}
+    .btn.primary{background:var(--accent);color:var(--btn-text);}
+    .btn.ghost{background:transparent;border:1px solid #ddd;color:var(--text);}
+    .note{margin-top:16px;color:#b02e2e;background:#fff5f5;padding:10px;border-radius:8px;border:1px solid #ffdede}
+    small{color:var(--muted)}
+    @media(max-width:520px){.card{padding:18px}h1{font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" role="main">
+      <h1>NutriScan — Site status</h1>
+      <p class="lead">Currently the backend preview (EmergentAgent) is not responding (HTTP 502). I've paused automatic redirect so you can access the project links below.</p>
+
+      <div class="links">
+        <!-- Update these URLs if you want different targets -->
+        <a class="btn primary" href="https://nutri-scan-chi.vercel.app" target="_blank" rel="noopener">Open Vercel deployment</a>
+        <a class="btn ghost" href="https://github.com/vishalshete122/NutriScan" target="_blank" rel="noopener">Open GitHub repo</a>
+        <a class="btn ghost" href="https://diet-analyzer-3.preview.emergentagent.com/" target="_blank" rel="noopener">Open Emergent preview</a>
+        <a class="btn ghost" href="https://vishalshete122.github.io/NutriScan" target="_blank" rel="noopener">Open GitHub Pages</a>
+      </div>
+
+      <div class="note" style="margin-top:18px;">
+        <strong>Quick info:</strong>
+        <br>
+        • If Vercel shows a "Ready" status but the app still needs backend, wait 30–60s for servers to spin up.  
+        • Emergent preview being down causes the original redirect to fail (502).  
+        • To fully fix, we either host the backend on Vercel (recommended) or update frontend to use a stable backend.
+      </div>
+
+      <p style="margin-top:18px"><small>Tip: If you want me to auto-redirect again later, tell me the working backend URL and I will give you the exact redirect snippet to put back.</small></p>
+    </div>
+  </div>
+</body>
 </html>
